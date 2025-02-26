@@ -11,11 +11,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $ar_prodi = ["TI" => "Teknik Informatika", "SI" => "Sistem Informasi", "BD" => "Bisnis Digital"];
     $namaProdi = $ar_prodi[$programStudi] ?? 'Tidak Diketahui';
 
-    // Daftar program studi
-    $ar_prodi = ["TI" => "Teknik Informatika", "SI" => "Sistem Informasi", "BD" => "Bisnis Digital"];
-    $namaProdi = $ar_prodi[$programStudi] ?? 'Tidak Diketahui';
-    
-    // Daftar skill
     $ar_skill = ["HTML" => 10, "CSS" => 20, "JavaScript" => 20, "RWD Bootstrap" => 20, "PHP" => 30, "Python" => 30, "Java" => 50];
     $skillList = [];
     $totalScore = 0;

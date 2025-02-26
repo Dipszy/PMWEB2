@@ -79,9 +79,10 @@
             <select class="form-select" id="domisili" name="domisili" aria-label="domisili">
                 <option value="">Pilih Domisili</option>
                 <?php 
-                    foreach ($ar_domisili as $k => $v) {
-                        echo "<option value='$k'>$v</option>";
+                    foreach ($ar_domisili as $v) { 
+                        echo "<option value='$v'>$v</option>";
                     }
+                    
                 ?>
 
             </select>
