@@ -7,7 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
+<<<<<<< HEAD
     <h2 class="mb-4 text-center">Form Registrasi</h2>
+=======
+    <h2>Form Registrasi</h2>
+>>>>>>> f8a11457155180bfdd49d50a42c1ef0730495560
 
 <div class="container px-5 my-5">
     <form method="POST" action="proses_registrasi.php">

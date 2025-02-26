@@ -8,9 +8,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $domisili = $_POST['domisili'] ?? '';
     $email = $_POST['email'] ?? '';
     
+<<<<<<< HEAD
     $ar_prodi = ["TI" => "Teknik Informatika", "SI" => "Sistem Informasi", "BD" => "Bisnis Digital"];
     $namaProdi = $ar_prodi[$programStudi] ?? 'Tidak Diketahui';
 
+=======
+    // Daftar program studi
+    $ar_prodi = ["TI" => "Teknik Informatika", "SI" => "Sistem Informasi", "BD" => "Bisnis Digital"];
+    $namaProdi = $ar_prodi[$programStudi] ?? 'Tidak Diketahui';
+    
+    // Daftar skill
+>>>>>>> f8a11457155180bfdd49d50a42c1ef0730495560
     $ar_skill = ["HTML" => 10, "CSS" => 20, "JavaScript" => 20, "RWD Bootstrap" => 20, "PHP" => 30, "Python" => 30, "Java" => 50];
     $skillList = [];
     $totalScore = 0;
@@ -22,6 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
     
+<<<<<<< HEAD
     if ($totalScore == 0) {
         $kategori = "Tidak Memadai";
     } elseif ($totalScore < 40) {
@@ -32,6 +41,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $kategori = "Baik";
     } else {
         $kategori = "Sangat Baik";
+=======
+    // Kategori berdasarkan total score
+    if ($totalScore >= 100) {
+        $kategori = "Sangat Mahir";
+    } elseif ($totalScore >= 60) {
+        $kategori = "Mahir";
+    } elseif ($totalScore >= 40) {
+        $kategori = "Cukup";
+    } else {
+        $kategori = "Kurang";
+>>>>>>> f8a11457155180bfdd49d50a42c1ef0730495560
     }
     ?>
     <!DOCTYPE html>
