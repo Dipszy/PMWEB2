@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -59,3 +60,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# PMWEB2
+
+PEMOGRAMAN WEB 2 (EMOTE ALOYYYY)
+
+DISETIAP PERTEMUAN PASTI ADA? BENAR ADA ERROR DIKIT HEHE
+>>>>>>> 158145730267c0d57010c192ddb8bb5a4c6861af
